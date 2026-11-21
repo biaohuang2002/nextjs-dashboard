@@ -1,6 +1,9 @@
-@tailwind base;
+@import "tailwindcss";
+@plugin "@tailwindcss/forms";
+
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 input[type='number'] {
   -moz-appearance: textfield;
